@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Veritas University Orientation Portal</title>
+</head>
+<body>
+
+<form>
+<fieldset>
+<legend>Student Orientation Registration Form</legend>
+
+<label>Full Name:</label><br>
+<input type="text" name="fullname" required><br><br>
+
+<label>Matric Number:</label><br>
+<input type="text" name="matric"  required><br><br>
+
+<label>Email:</label><br> 
+<input type="email" name="email" required><br><br>
+
+<label>Age:</label><br>
+<input type="number" name="age"required><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female<br><br>
+
+<label>Date of Birth:</label><br>
+<input type="date" name="dob" required><br><br>
+
+<label>Faculty:</label><br>
+<select name="faculty" required>
+    <option value="">--Select Faculty--</option>
+    <option>Natural & Applied Science</option>
+    <option>Engineering</option>
+    <option>Management Sciences</option>
+    <option>Law</option>
+    <option>Social Sciences</option>
+</select><br><br>
+
+<label>Documents Submitted:</label><br>
+<input type="checkbox" name="docs" value="waec"> WAEC Result<br>
+<input type="checkbox" name="docs" value="birth"> Birth Certificate<br>
+<input type="checkbox" name="docs" value="admission"> Admission Letter<br><br>
+
+<label>Upload Passport/Document:</label><br>
+<input type="file" name="fileupload"><br><br>
+
+<label>Additional Comments:</label><br>
+<textarea name="comments" rows="4" cols="40" placeholder="Enter any comments..."></textarea><br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+</form>
+
+</body>
+</html>
